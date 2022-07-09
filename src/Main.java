@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello");
         Thread myThread = new Thread(new Runnable() {
             @Override
             public void run() {
